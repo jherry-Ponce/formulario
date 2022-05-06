@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://frases.top/wp-content/uploads/2019/11/fondos-de-pantalla-4k-escritorio.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main {
+    
+    width: 300px;
+    padding: 30px;
+    box-shadow: 0px 10px 10px 0px rgba(41, 40, 40, 0.575);
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    z-index: 1;
+  }
+  header {
+    position: relative;
+  }
+  header .logo {
+    width: 100px;
+    position: absolute;
+    top: -110px;
+    border-radius: 50%;
+    left: calc(50% - 50px);
+  }
+  header h1 {
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  form label {
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+  }
+  form input {
+    width: 100%;
+    padding: 10px 0;
+    color: #fff;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 30px;
+    outline: none;
+  }
+  form button{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #b80f22;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 16px;
+    cursor: pointer;
+  }
+  form button:hover{
+    background: #ece00a;
+    color: black;
+  }
+
+  form a{
+      display: block;
+      text-decoration: none;
+      font-size: 15px;
+      line-height: 20px;
+      color: darkgrey;
+      }
+  form a:hover{
+      color: white;
+  }
+
+  @media screen and (max-width: 480px) {
+
+    .main{
+        margin: 40% 10%;
+        width: auto;
+        padding: 30px;
+        box-shadow:0px 10px 10px 0px rgba(41, 40, 40, 0.575);
+        background: rgba(0,0,0, .8);
+        border-radius: 10px;
+        z-index: 1;
+    }
+
+}
