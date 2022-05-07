@@ -81,12 +81,7 @@ body {
   form a:hover{
       color: white;
   }
-  input:invalid{
-      background: #ece00a;
-  }
-  input:valid{
-    background: red;
-}
+
 
   @media screen and (max-width: 480px) {
 
